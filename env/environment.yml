@@ -1,0 +1,26 @@
+name: roar-commoncrawl
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pyspark=3.5
+  - pyarrow>=14
+  - pandas
+  - numpy
+  - beautifulsoup4
+  - lxml
+  - justext
+  - langdetect
+  - requests
+  - urllib3
+  - tqdm
+  - matplotlib
+  - seaborn
+  - ipykernel
+  - jupyterlab
+  - pip:
+      - warcio
+      - graphframes==0.8.3
+

@@ -1,0 +1,11 @@
+scratch_root: "/scratch/$USER/commoncrawl"
+outputs_root: "/scratch/$USER/commoncrawl/outputs"
+curated_root: "/scratch/$USER/commoncrawl/curated"
+samples_root: "/scratch/$USER/commoncrawl/samples"
+
+cc_index_parquet: "s3a://commoncrawl/cc-index/table/cc-main/warc/"
+cc_warc_base_https: "https://data.commoncrawl.org/"
+
+spark:
+  defaults_conf: "env/spark-defaults.conf"
+

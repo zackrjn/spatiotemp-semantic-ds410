@@ -1,0 +1,12 @@
+crawl_id: "CC-MAIN-2025-14"
+tlds: ["edu", "gov"]
+content_types:
+  - "text/html"
+sample_fraction: 0.02   # start at 2%; move 0.01–0.05 as needed
+max_records: 200000     # safety cap for early runs
+filters:
+  fetch_status: [200]
+  include_https_only: true
+  min_content_length: 1000
+  exclude_querystrings: false
+

@@ -1,0 +1,40 @@
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+.history/
+
+# Python
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.pytest_cache/
+.coverage*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+
+# Build/artifacts
+dist/
+build/
+logs/
+.sparkStaging/
+artifacts/
+models/
+
+# Project data (keep small samples tracked via LFS)
+data/**
+!data/samples/**
+!data/schemas/**
+
+# Outputs
+outputs/
+
+# Cursor/IDE
+.cursor/
+
+
